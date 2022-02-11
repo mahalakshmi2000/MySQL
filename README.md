@@ -1,7 +1,7 @@
 # MySQL
 ### MySQL SHOW DATABASES Statement:
 >SHOW DATABASES;
-***
+---
 
 | Database           |
 |--------------------|
@@ -26,7 +26,7 @@
 Query OK, 0 rows affected (0.04 sec)
 ### MySQL SHOW TABLES Statement:
 >SHOW TABLES;
-***
+---
 | Tables_in_school |
 |------------------|
 | student_info     |
@@ -35,7 +35,7 @@ Query OK, 0 rows affected (0.04 sec)
 ### MySQL DESCRIBE TABLE Statement:
 >DESC student_info;
 >DESCRIBE student_info;
-***
+---
 | Field | Type        | Null | Key | Default | Extra          |
 |-------|-------------|------|-----|---------|----------------|
 | id    | int         | NO   | PRI | NULL    | auto_increment |
