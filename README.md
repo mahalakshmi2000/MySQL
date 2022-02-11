@@ -52,7 +52,7 @@ Query OK, 1 row affected (0.01 sec)
 |  1 | maha | 2000-11-23 |
 |  2 | pavi | 2000-03-27 |
 |  3 | viji | 1999-08-15 |
-+----+------+------------+
+
 3 rows in set (0.00 sec)
 
 
