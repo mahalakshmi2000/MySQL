@@ -1,6 +1,7 @@
 # MySQL
 ### MySQL SHOW DATABASES Statement:
-```SHOW DATABASES;```
+>SHOW DATABASES;
+***
 
 | Database           |
 |--------------------|
@@ -17,22 +18,24 @@
 
 10 rows in set (0.00 sec)
 ### The MySQL USE DATABASE Statement:
-```USE school;```
+>USE school;
+---
 ### MySQL CREATE TABLE Statement;
-```create table student_info(id int primary key auto_increment, name varchar(20),DOB date UNIQUE );```
+>create table student_info(id int primary key auto_increment, name varchar(20),DOB date UNIQUE );
+---
 Query OK, 0 rows affected (0.04 sec)
 ### MySQL SHOW TABLES Statement:
-```SHOW TABLES;```
-
+>SHOW TABLES;
+***
 | Tables_in_school |
 |------------------|
 | student_info     |
 
 1 row in set (0.00 sec)
 ### MySQL DESCRIBE TABLE Statement:
-```DESC student_info;```
-```DESCRIBE;```
-
+>DESC student_info;
+>DESCRIBE student_info;
+***
 | Field | Type        | Null | Key | Default | Extra          |
 |-------|-------------|------|-----|---------|----------------|
 | id    | int         | NO   | PRI | NULL    | auto_increment |
@@ -41,12 +44,13 @@ Query OK, 0 rows affected (0.04 sec)
 
 3 rows in set (0.01 sec)
 ### MySQL INSERT INTO Statement:
-```insert into student_info values(1,"maha","2000-11-23");```
-```insert into student_info (name,DOB) values("pavi","2000-3-27");```
+>insert into student_info values(1,"maha","2000-11-23");
+>insert into student_info (name,DOB) values("pavi","2000-3-27");
+---
 Query OK, 1 row affected (0.01 sec)
 ###  MySQL SELECT Statement:
 >SELECT * FROM student_info;
-
+---
 | id | name | DOB        |
 |----|------|------------|
 |  1 | maha | 2000-11-23 |
