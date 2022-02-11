@@ -1,9 +1,9 @@
 # MySQL
 ### MySQL SHOW DATABASES Statement:
 ```SHOW DATABASES;```
-+--------------------+
+
 | Database           |
-+--------------------+
+|--------------------|
 | db1                |
 | information_schema |
 | mysql              |
@@ -14,7 +14,7 @@
 | sys                |
 | visiters           |
 | world              |
-+--------------------+
+
 10 rows in set (0.00 sec)
 ### The MySQL USE DATABASE Statement:
 ```USE school;```
@@ -23,22 +23,22 @@
 Query OK, 0 rows affected (0.04 sec)
 ### MySQL SHOW TABLES Statement:
 ```SHOW TABLES;```
-+------------------+
+
 | Tables_in_school |
-+------------------+
+|------------------|
 | student_info     |
-+------------------+
+
 1 row in set (0.00 sec)
 ### MySQL DESCRIBE TABLE Statement:
 ```DESC student_info;```
 ```DESCRIBE;```
-+-------+-------------+------+-----+---------+----------------+
+
 | Field | Type        | Null | Key | Default | Extra          |
-+-------+-------------+------+-----+---------+----------------+
+|-------|-------------|------|-----|---------|----------------|
 | id    | int         | NO   | PRI | NULL    | auto_increment |
 | name  | varchar(20) | YES  |     | NULL    |                |
 | DOB   | date        | YES  | UNI | NULL    |                |
-+-------+-------------+------+-----+---------+----------------+
+
 3 rows in set (0.01 sec)
 ### MySQL INSERT INTO Statement:
 ```insert into student_info values(1,"maha","2000-11-23");```
