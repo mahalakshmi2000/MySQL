@@ -45,7 +45,7 @@ Query OK, 0 rows affected (0.04 sec)
 ```insert into student_info (name,DOB) values("pavi","2000-3-27");```
 Query OK, 1 row affected (0.01 sec)
 ###  MySQL SELECT Statement:
-```SELECT * FROM student_info;```
+>SELECT * FROM student_info;
 
 | id | name | DOB        |
 |----|------|------------|
