@@ -99,13 +99,16 @@ Rows matched: 1  Changed: 1  Warnings: 0
 * CREATE INDEX - Used to create and retrieve data from the database very quickly
 
 ``` create table student_info(id int auto_increment,name varchar(20) not null,DOB date unique not null, primary key(id));```
+
 Query OK, 0 rows affected (0.04 sec)
  
 #### foreign key:
 ``` create table mark_list(id int not null, mark int not null, section varchar(1) default 'B', foreign key (id) references student_info(id));```
+
 Query OK, 0 rows affected (0.07 sec)
 ----
 ```insert into mark_list values(2,99,default);```
+
 Query OK, 1 row affected (0.01 sec)
 ----
 
